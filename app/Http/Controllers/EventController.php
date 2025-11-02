@@ -17,7 +17,7 @@ class EventController extends Controller
         return view('admin.index');
     }
 
-    public function edit($id)
+    public function edit()
     {
         return view('admin.edit');
     }
